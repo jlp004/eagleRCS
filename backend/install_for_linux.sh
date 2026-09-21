@@ -22,6 +22,6 @@ fi
 python3 -m venv .venv
 source .venv/bin/activate
 .venv/bin/pip install --upgrade pip
-.venv/bin/pip install pyfhel
+.venv/bin/pip install pyfhel numpy
 
 echo "Setup complete."
