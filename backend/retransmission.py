@@ -52,8 +52,6 @@ class RetransmissionManager:
                 timed_out.append(message_id)
 
         return timed_out
-
-    
     
 if __name__ == "__main__":
     manager = RetransmissionManager()

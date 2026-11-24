@@ -1,7 +1,6 @@
 from crc import calculate_crc, verify_crc
 from retransmission import RetransmissionManager
 
-
 def test_corrupted_message():
     manager = RetransmissionManager()
     message = b"Hello"

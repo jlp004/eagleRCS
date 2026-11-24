@@ -10,18 +10,15 @@ Uses CRC32 to detect corrupted messages and retransmission to handle corrupted o
 - `test_reliability.py` — contains automated unit tests
 
 --> Settings
-
 - timeout: 3 seconds
 - maximum retries: 3
 Both are configurable. No additional libraries are needed.
 
 --> Testing
-
 run from the backend folder:
 
 python3 -m unittest test_reliability -v
 python3 test_crc_retransmission.py
-
 
 -- all 9 unit tests passed, along with the corrupted message and retransmission simulation
 

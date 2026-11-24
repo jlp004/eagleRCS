@@ -51,6 +51,5 @@ class TestRetransmission(unittest.TestCase):
                    return_value=sent_time + 4):
             self.assertIn("msg1", self.manager.check_timeouts())
 
-
 if __name__ == "__main__":
     unittest.main()

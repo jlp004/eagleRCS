@@ -1,6 +1,4 @@
 import zlib
-
-
 def calculate_crc(message: bytes) -> int:
     # calc the CRC32 checksum 
     return zlib.crc32(message)
